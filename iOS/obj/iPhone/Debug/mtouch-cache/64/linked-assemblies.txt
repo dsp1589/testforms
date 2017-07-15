@@ -1,0 +1,14 @@
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/TestForms.iOS.exe
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/mscorlib.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.Forms.Platform.iOS.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.Forms.Core.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Core.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Mono.Security.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Xml.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.Forms.Platform.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Net.Http.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.Runtime.Serialization.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/System.ServiceModel.Internals.dll
+/Users/dhana/Projects/TestForms/iOS/bin/iPhone/Debug/TestForms.iOS.app:/Users/dhana/Projects/TestForms/iOS/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.Forms.Xaml.dll

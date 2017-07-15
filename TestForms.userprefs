@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{6E42A1D8-9BA7-4569-BD82-25F7FCC2086A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestForms/MainPage.xaml">
+    <Files>
+      <File FileName="TestForms/NewClaimPage.xaml.cs" Line="16" Column="5" />
+      <File FileName="TestForms/MainPage.xaml.cs" Line="12" Column="52" />
+      <File FileName="TestForms/Profile.xaml.cs" Line="13" Column="1" />
+      <File FileName="iOS/Info.plist" />
+      <File FileName="TestForms/Profile.xaml" Line="4" Column="96" />
+      <File FileName="TestForms/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="18" Column="92" />
+      <File FileName="TestForms/MainPage.xaml" Line="7" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/dhana/Projects/TestForms/TestForms/TestFormsPage.xaml.cs" relfile="TestForms/TestFormsPage.xaml.cs" line="32" column="1" />
+      <Breakpoint enabled="false" file="/Users/dhana/Projects/TestForms/TestForms/NewClaimPage.xaml.cs" relfile="TestForms/NewClaimPage.xaml.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TestForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.94C654BC-D4CF-442C-AF16-5E3EA153E272" />
+  <MonoDevelop.Ide.ItemProperties.TestForms.Droid PreferredExecutionTarget="Android.019f015fdd831804" />
+  <MultiItemStartupConfigurations />
+</Properties>

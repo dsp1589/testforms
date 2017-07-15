@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestForms.Profile">
+	<ContentPage.Content>
+        <StackLayout BackgroundColor="#148485" VerticalOptions="Fill" HorizontalOptions="Fill">
+            <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill" Padding="0,20,0,0">
+                <StackLayout Orientation="Vertical"  VerticalOptions="Fill" HorizontalOptions="Fill">
+                    <Label Text="Profile" TextColor="White" HorizontalTextAlignment="Center" FontSize="24" VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,30"></Label>
+                <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition  />
+                    <RowDefinition  />
+                    <RowDefinition  />
+                    <RowDefinition  />
+                    <RowDefinition  />
+                  </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+              </Grid.ColumnDefinitions>
+                    <Label Text="Name" Grid.Row="0" Grid.Column="0"  Margin="20,0,0,30" TextColor="White"/>
+              <Label  HorizontalTextAlignment="Center" Text="Mr. Test  Test" Grid.Row="0" Grid.Column="1"  TextColor="White"/>
+              <Label Text="Organization" Grid.Row="1" Grid.Column="0" Margin="20,0,0,30" TextColor="White"/>
+              <Label  HorizontalTextAlignment="Center" Text="Dench Sdn Bhd" Grid.Row="1" Grid.Column="1"  TextColor="White"/>
+                    <Label Text="Mobile" Grid.Row="2" Grid.Column="0" Margin="20,0,0,30" TextColor="White"/>
+              <Label HorizontalTextAlignment="Center" Text="01136216198" Grid.Row="2" Grid.Column="1"  TextColor="White"/>
+                    <Label  Text="Role" Grid.Row="3" Grid.Column="0" Margin="20,0,0,30" TextColor="White"/>
+              <Label  HorizontalTextAlignment="Center" Text="User" Grid.Row="3" Grid.Column="1"  TextColor="White"/>
+                    <Label  Text="Action Requests" Grid.Row="4" Grid.Column="0" Margin="20,0,0,30" TextColor="White"/>
+              <Label  HorizontalTextAlignment="Center" Text="-" Grid.Row="4" Grid.Column="1"  TextColor="White"/>
+            </Grid>
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

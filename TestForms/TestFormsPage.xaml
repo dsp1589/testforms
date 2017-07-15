@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TestForms.CustomControls" x:Class="TestForms.TestFormsPage"
+                  >
+
+	    <ScrollView BackgroundColor="#148485" Padding="20">
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" >
+        <Image Source="FaoozMobileAppLogo.jpg" Aspect="AspectFit" Margin="40,10,40,40"></Image>
+  
+                <local:MyEntry Placeholder="Organisation" x:Name="OrgName" Margin="0,10,0,0">
+             </local:MyEntry>
+        <local:MyEntry Placeholder="User Name" Margin="0,10,0,0" x:Name="UserName">
+       </local:MyEntry>
+        <local:MyEntry Placeholder="Password"  IsPassword="true" x:Name="Password"  Margin="0,10,0,0">
+                </local:MyEntry>
+            <StackLayout  Margin="0,20,0,0" Orientation="Horizontal" Spacing="20"> 
+                <Switch VerticalOptions="CenterAndExpand" x:Name="RememberMe" >
+                </Switch>
+                <Label VerticalOptions="CenterAndExpand" TextColor="White">Remember Me</Label>
+                <StackLayout  HorizontalOptions="FillAndExpand"><Button VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" x:Name="SignIn" Text="Sign In" TextColor="White" BackgroundColor="#5cb85c"  Margin="20,0,0,0"></Button>
+            </StackLayout></StackLayout>
+    </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
