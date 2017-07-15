@@ -7,13 +7,17 @@ namespace TestForms
 {
     public partial class NewClaimPage : ContentPage
     {
-        public NewClaimPage()
+
+		public NewClaimPage()
         {
             InitializeComponent();
             Title = "New Claims";
             if (Xamarin.Forms.Device.RuntimePlatform == "iOS"){
 				Icon = "new";
 			}
-        }
+
+
+		}
+
     }
 }
