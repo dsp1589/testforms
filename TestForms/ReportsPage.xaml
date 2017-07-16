@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestForms.ReportsPage">
 	<ContentPage.Content >
-        <StackLayout BackgroundColor="#148485">
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <StackLayout Padding="20,30,20,30" BackgroundColor="#148485" Orientation="Vertical"
+            VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label Text="Report" TextColor="White" FontSize="30"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"></Label>
+                <StackLayout Spacing="10" Orientation="Horizontal" HorizontalOptions="Fill">
+                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                        <Label Text="From" TextColor="White" FontSize="25"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start"></Label>
+                        <DatePicker HorizontalOptions="FillAndExpand"></DatePicker>
+                    </StackLayout>
+
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                        <Label Text="To" TextColor="White" FontSize="25"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Start"></Label>
+                        <DatePicker HorizontalOptions="FillAndExpand"></DatePicker>
+                    </StackLayout>               
+                </StackLayout>
+                <Entry Placeholder="Purpose"></Entry>
+                <Entry Placeholder="Ref"></Entry>
+                <Grid>
+                    <Grid.RowDefinitions></Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions Grid.Column="*"></Grid.ColumnDefinitions>
+                    <Picker  Grid.Row="0" Grid.Column="0"  Title="Project Name" HorizontalOptions="FillAndExpand"></Picker>
+                </Grid>                
+                <Grid>
+                    <Grid.RowDefinitions></Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions Grid.Column="*"></Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions Grid.Column="*"></Grid.ColumnDefinitions>
+                    <Picker Grid.Row="0" Grid.Column="0"  Title="Source Currency" HorizontalOptions="FillAndExpand"></Picker>
+                    <Picker Grid.Row="0" Grid.Column="1"  Title="Billing Currency" HorizontalOptions="FillAndExpand"></Picker>
+                </Grid>
+                <Grid>
+                    <Grid.RowDefinitions></Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions Grid.Column="*"></Grid.ColumnDefinitions>
+                    <Grid.ColumnDefinitions Grid.Column="*"></Grid.ColumnDefinitions>
+                    <Picker Grid.Row="0" Grid.Column="0" Title="Group" HorizontalOptions="FillAndExpand"></Picker>
+                    <Entry Grid.Row="0" Grid.Column="1" Placeholder="Experience Type"></Entry>
+                 </Grid>
+                <Button Text="Search" HorizontalOptions="FillAndExpand"
+                TextColor="White"  BackgroundColor="#5cb85c" Margin="20,20,20,0"></Button>
         </StackLayout>
+            </ScrollView>
 	</ContentPage.Content>
 </ContentPage>

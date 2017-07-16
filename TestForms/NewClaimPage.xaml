@@ -4,7 +4,7 @@
         <StackLayout BackgroundColor="#148485" VerticalOptions="Fill" HorizontalOptions="Fill" >
             <ScrollView Padding="0,20,0,20" VerticalOptions="Fill" HorizontalOptions="Fill">
                 <StackLayout  VerticalOptions="Fill" HorizontalOptions="Fill" Orientation="Vertical">
-                    <Label HorizontalOptions="Fill" HorizontalTextAlignment="Center"  Text="New Claim" TextColor="White" FontSize="25"></Label>
+                    <Label HorizontalOptions="Fill" HorizontalTextAlignment="Center"  Text="New Claim" TextColor="White" FontSize="30"></Label>
                     <BoxView WidthRequest="1" BackgroundColor="White" HeightRequest="1" Margin="30,0,30,0"></BoxView>
                     <Grid Margin="8,0,8,0" Padding="8,0,8,0">
                         <Grid.RowDefinitions>
@@ -66,7 +66,7 @@
                             Grid.Row="11" Grid.Column="0" HorizontalOptions="Fill"
                         ></Label>
                         <Entry Grid.Row="11" Grid.Column="1" Placeholder="Select Receipt"></Entry>
-                        <Button Clicked="Handle_Clicked" BackgroundColor="Lime" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="2" Text="SUBMIT" TextColor="White"></Button>
+                        <Button Clicked="Handle_Clicked"  BackgroundColor="#5cb85c" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="2" Text="SUBMIT" TextColor="White"></Button>
                     </Grid>
                 </StackLayout>
 

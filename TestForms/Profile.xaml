@@ -4,7 +4,7 @@
         <StackLayout BackgroundColor="#148485" VerticalOptions="Fill" HorizontalOptions="Fill">
             <ScrollView VerticalOptions="Fill" HorizontalOptions="Fill" Padding="0,20,0,0">
                 <StackLayout Orientation="Vertical"  VerticalOptions="Fill" HorizontalOptions="Fill">
-                    <Label Text="Profile" TextColor="White" HorizontalTextAlignment="Center" FontSize="24" VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,30"></Label>
+                    <Label Text="Profile" TextColor="White" HorizontalTextAlignment="Center" FontSize="30" VerticalOptions="Fill" HorizontalOptions="Fill" Margin="0,0,0,30"></Label>
                 <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition  />

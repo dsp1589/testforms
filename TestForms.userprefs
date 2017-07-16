@@ -1,18 +1,20 @@
 ﻿<Properties StartupConfiguration="{6E42A1D8-9BA7-4569-BD82-25F7FCC2086A}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="TestForms Status">
     <Files>
-      <File FileName="TestForms/NewClaimPage.xaml.cs" Line="33" Column="4" />
+      <File FileName="TestForms/ReportsPage.xaml" Line="39" Column="25" />
+      <File FileName="TestForms/MyClaims.xaml" Line="16" Column="56" />
+      <File FileName="TestForms/ApproveReportPage.xaml" Line="22" Column="1" />
       <File FileName="TestForms Status" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint enabled="false" file="/Users/dhana/Projects/TestForms/TestForms/TestFormsPage.xaml.cs" relfile="TestForms/TestFormsPage.xaml.cs" line="32" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.12b1326043199808df16636a8fcd4529ee02f97b" />
+  <MonoDevelop.Ide.ItemProperties.TestForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5896DE08-7026-4591-9FEB-EF8558D7D8B4" />
   <MonoDevelop.Ide.ItemProperties.TestForms.Droid PreferredExecutionTarget="Android.019f015fdd831804" />
   <MultiItemStartupConfigurations />
 </Properties>
