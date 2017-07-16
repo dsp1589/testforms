@@ -66,7 +66,7 @@
                             Grid.Row="11" Grid.Column="0" HorizontalOptions="Fill"
                         ></Label>
                         <Entry Grid.Row="11" Grid.Column="1" Placeholder="Select Receipt"></Entry>
-                        <Button BackgroundColor="Lime" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="2" Text="SUBMIT" TextColor="White"></Button>
+                        <Button Clicked="Handle_Clicked" BackgroundColor="Lime" Grid.Row="12" Grid.Column="0" Grid.ColumnSpan="2" Text="SUBMIT" TextColor="White"></Button>
                     </Grid>
                 </StackLayout>
 
